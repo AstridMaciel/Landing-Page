@@ -1,0 +1,120 @@
+body{
+  text-align: center;
+}
+#first-part{
+  background: rgb(174, 187, 184);
+}
+#second-part{
+  background: rgb(117, 137, 97);
+  padding: 25px 0 60px 0;
+}
+#four-part{
+  background: rgb(15, 15, 15);
+  padding: 25px 0 60px 0;
+}
+#last-part{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.margin-b{
+  margin-bottom: 40px;
+}
+.back-yellow{
+  background: #ffff00;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+.text-shadow{
+  text-shadow: rgb(128, 128, 128) 1px 1px 0px;
+}
+.text-yellow{
+  color: #ffcc00;
+}
+.text-yellow-a{
+  color: #ffff00;
+}
+.text-white{
+  color: #fff;
+}
+.text-green{
+  color: #00ff00;
+}
+.text-blue{
+  color: rgb(0, 0, 255);
+}
+.text-red{
+  color: #ff0000;
+}
+.text-red-a{
+  color: #800000;
+}
+#yellow{
+  background: rgb(224, 207, 50);
+  border: rgb(224, 207, 50);
+}
+#yellow:hover{
+  background: #00ff00;
+}
+#yellow a:hover{
+  color: #fff;
+}
+.button{
+  width: 900px;
+  height: 70px;
+  border-radius: 50px;
+  background: rgb(17, 70, 217);
+  border: rgb(17, 70, 217)
+}
+.button a{
+  font-size: 50px;
+  color: #000;
+}
+.button:hover{
+  background: #00ff00;
+}
+.button a:hover{
+  color: #fff;
+}
+.user{
+  width: 155px;
+  height: 142px;
+  border-radius: 50%;
+}
+#clock, #clock-2, #clock-3{
+		padding:0;
+		height:80px;
+		/*position: absolute;*/
+		top: 0px;
+		right: 0px;
+		background: #bcbd72;
+		color: #2a2807;
+		padding:4px;
+		border:2px solid #2a2807;
+		font-size:15px;
+		width: 320px;
+		text-shadow:#6d691e 5px 5px 5px,#6d691e -5px -5px 5px;
+	}
+
+	.clockCountdownNumber{
+		float:left;
+		background:URL('../img/numeros.png');
+		display:block;
+		width:34px;
+		height:50px;
+	}
+
+	.clockCountdownSeparator_days,
+	.clockCountdownSeparator_hours,
+	.clockCountdownSeparator_minutes,
+	.clockCountdownSeparator_seconds
+	{
+		float:left;
+		display:block;
+		width:10px;
+		height:50px;
+	}
+	.clockCountdownFootItem{
+		width:75px;
+		float:left;
+		text-align:center;
+	}
